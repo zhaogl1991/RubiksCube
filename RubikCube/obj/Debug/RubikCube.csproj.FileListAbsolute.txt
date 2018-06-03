@@ -1,1 +1,9 @@
 F:\赵国梁工作文件保存\练习\RubikCube\RubikCube\bin\Debug\RubikCube.exe.config
+D:\GitHubWorkSpace\RubiksCube\RubikCube\bin\Debug\RubikCube.exe.config
+D:\GitHubWorkSpace\RubiksCube\RubikCube\obj\Debug\RubikCube.csprojResolveAssemblyReference.cache
+D:\GitHubWorkSpace\RubiksCube\RubikCube\obj\Debug\RubikCube.Properties.Resources.resources
+D:\GitHubWorkSpace\RubiksCube\RubikCube\obj\Debug\RubikCube.csproj.GenerateResource.Cache
+D:\GitHubWorkSpace\RubiksCube\RubikCube\bin\Debug\RubikCube.exe
+D:\GitHubWorkSpace\RubiksCube\RubikCube\bin\Debug\RubikCube.pdb
+D:\GitHubWorkSpace\RubiksCube\RubikCube\obj\Debug\RubikCube.exe
+D:\GitHubWorkSpace\RubiksCube\RubikCube\obj\Debug\RubikCube.pdb
