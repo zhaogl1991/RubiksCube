@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF自定义窗口", "WPF�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "圆角透明Window", "圆角透明Window\圆角透明Window.csproj", "{F0FABCF4-9209-4684-B093-BF84AE183EC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu样式", "Menu样式\Menu样式.csproj", "{C617630F-F382-436C-AA9A-33A010CA0B66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "更新样式", "更新样式\更新样式.csproj", "{59643AE7-268A-4358-9C23-C2080EB6F0A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{F0FABCF4-9209-4684-B093-BF84AE183EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0FABCF4-9209-4684-B093-BF84AE183EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0FABCF4-9209-4684-B093-BF84AE183EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C617630F-F382-436C-AA9A-33A010CA0B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C617630F-F382-436C-AA9A-33A010CA0B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C617630F-F382-436C-AA9A-33A010CA0B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C617630F-F382-436C-AA9A-33A010CA0B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59643AE7-268A-4358-9C23-C2080EB6F0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59643AE7-268A-4358-9C23-C2080EB6F0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59643AE7-268A-4358-9C23-C2080EB6F0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59643AE7-268A-4358-9C23-C2080EB6F0A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

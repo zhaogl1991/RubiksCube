@@ -104,7 +104,7 @@ namespace RubikCube
             TrackBar bar = sender as TrackBar;
             globalGraphics.Clear(Color.White);
             SolidBrush blueBrush = new SolidBrush(Color.Blue);
-            DrawRectange(globalGraphics, blueBrush, new Point(100, 100), 100, 100,Math.PI*2*bar.Value/100.0, 0);
+            DrawRectange(globalGraphics, blueBrush, new Point(100, 100), 100, 100, 0, Math.PI * 2 * bar.Value / 100.0);
             blueBrush.Dispose();
         }
     }
