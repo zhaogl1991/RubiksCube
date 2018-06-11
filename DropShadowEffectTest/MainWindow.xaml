@@ -1,0 +1,25 @@
+﻿<Window x:Class="DropShadowEffectTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:XUI ="clr-namespace:DropShadowEffectTest"
+        BorderThickness="24"  
+        AllowsTransparency="True"  
+        WindowStyle="None"         
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"  
+        VerticalAlignment="Center"  
+        WindowStartupLocation="CenterOwner">
+    <Window.Effect>
+        <DropShadowEffect BlurRadius="24" Color="#FF858484" Direction="90" ShadowDepth="3"/>
+    </Window.Effect>
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/Windows.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Label Name="MessageShow" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" Content="设置成功"/>
+    </Grid>
+</Window>

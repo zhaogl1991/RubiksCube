@@ -1,0 +1,16 @@
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\bin\Debug\DropShadowEffectTest.exe.config
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\bin\Debug\DropShadowEffectTest.exe
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\bin\Debug\DropShadowEffectTest.pdb
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest.csprojResolveAssemblyReference.cache
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\MainWindow.baml
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\Theme\Color.baml
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\Theme\Windows.baml
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\MainWindow.g.cs
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\App.g.cs
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest_MarkupCompile.cache
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest.g.resources
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest.Properties.Resources.resources
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest.csproj.GenerateResource.Cache
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest.exe
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest.pdb
+F:\赵国梁工作文件保存\练习\RubikCube\DropShadowEffectTest\obj\Debug\DropShadowEffectTest_MarkupCompile.lref

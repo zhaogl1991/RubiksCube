@@ -1,0 +1,83 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+   
+    
+    <!--<SolidColorBrush x:Key="XColorPrimary" Color="#81387a"/>-->
+    <!--<SolidColorBrush x:Key="XColorPrimary1" Color="#FF9E5397" />-->
+    <!--<SolidColorBrush x:Key="MOTabSecend" Color="#81387a"/>-->
+    <!--<SolidColorBrush x:Key="MOBoderBrush" Color="#80387a"/>
+    <SolidColorBrush x:Key="MOBoderThickness" Color="#81387a"/>-->
+    <!--<SolidColorBrush x:Key="MOColorTitle" Color="#80387a"/>
+    <SolidColorBrush x:Key="MOClickedBackGround" Color="#80387a"/>
+    <SolidColorBrush x:Key="MOButtonBackGround" Color="#80387a"/>
+    <SolidColorBrush x:Key="ListBorder" Color="#80387a"/>-->
+
+    <SolidColorBrush x:Key="XColorPrimary" Color="#4ba7a8" />
+    <SolidColorBrush x:Key="XColorPrimary1" Color="#4ba7a8" />
+    <SolidColorBrush x:Key="MOTabSecend" Color="#098e90" />
+    <SolidColorBrush x:Key="MOBoderBrush" Color="#4ba7a8"/>
+    <SolidColorBrush x:Key="MOBoderThickness" Color="#4ba7a8"/>
+    <SolidColorBrush x:Key="MOColorTitle" Color="#FF4ba7a8"/>
+    <SolidColorBrush x:Key="MOClickedBackGround" Color="#4ba7a8"/>
+    <SolidColorBrush x:Key="MOButtonBackGround" Color="#4ba7a8"/>
+    <SolidColorBrush x:Key="ListBorder" Color="#4ba7a8"/>
+    
+    
+    <!--主色调 占 70 %-->
+    <SolidColorBrush x:Key="XColorSecend" Color="#ffab03"/>
+    <!--辅色调-->
+    <SolidColorBrush x:Key="XColorBlack" Color="#202020"/>
+    <!--目前未用到-->
+    <SolidColorBrush x:Key="XColorBlue" Color="#22bdef"/>
+    <!--折线线图使用时50%透明-->
+    <SolidColorBrush x:Key="XColorWarn" Color="#d83e27"/>
+    <!--红色 折线线图使用时50%透明-->
+    <SolidColorBrush x:Key="XColorRed" Color="#d83e27"/>
+    <!--红色 折线线图使用时50%透明-->
+    <SolidColorBrush x:Key="XColorBorder" Color="#d7d7d7"/>
+    <!--表格、折线图背景框-->
+    <SolidColorBrush x:Key="XNormalBackGround" Color="#eefafa"/>
+    <!--右侧背景-->
+    <!--字体颜色-->
+    <SolidColorBrush x:Key="XColorNormalText" Color="#333333"/>
+    <SolidColorBrush x:Key="XColorNormalText2" Color="#666666"/>
+    <SolidColorBrush x:Key="XColorNormalText3" Color="#999999"/>
+
+
+    <SolidColorBrush x:Key="MOCheckBoxBgGreen" Color="#50c42c"/>
+    <!--checkbox背景色 绿-->
+    <SolidColorBrush x:Key="MOBorderBrushGray" Color="#c9c9c9"/>
+    <!--border颜色 灰-->
+    <!--字体颜色-->
+    <SolidColorBrush x:Key="MOColorNormalText" Color="#333333"/>
+    <SolidColorBrush x:Key="MOColorNormalText2" Color="#666666"/>
+    <SolidColorBrush x:Key="MOColorNormalText3" Color="#999999"/>
+    <SolidColorBrush x:Key="MOColorWarningText" Color="#fc3d3d"/>
+
+
+    
+    <SolidColorBrush x:Key="MOScrollViewer" Color="#FFF0F0F0"/>
+    <SolidColorBrush x:Key="OpacityBrush" Color="White" Opacity="0.8"/>
+    <!--下拉条颜色-->
+
+    <SolidColorBrush x:Key="MOTabTitleBackGround" Color="White"/>
+
+    <SolidColorBrush x:Key="MOErrortext" Color="#FFB40B0B"/>
+    <SolidColorBrush x:Key="MOTransport" Color="#00FFFFFF"/>
+    <!--颜色资源-->
+
+
+    <SolidColorBrush x:Key="MOColorListItemSelect" Color="#f2ebf2"/>
+
+    <SolidColorBrush x:Key="MOColorGreen" Color="#FF127C35"/>
+    <SolidColorBrush x:Key="MOColorGray" Color="#eefafa"/>
+
+
+    <SolidColorBrush x:Key="ThumbFill" Color="#DEDFE7"/>
+    <SolidColorBrush x:Key="ThumbBackground" Color="#F5F5F5"/>
+    <SolidColorBrush x:Key="ThemeGray" Color="#dbdbdb"/>
+    <!--赵国梁增加-->
+    <SolidColorBrush x:Key="ThemePaleGreen" Color="#eefafa"/>
+    <SolidColorBrush x:Key="XColor-Third" Color="#9bdc6b"/>
+</ResourceDictionary>
