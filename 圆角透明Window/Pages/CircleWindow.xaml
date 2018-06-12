@@ -1,0 +1,14 @@
+﻿<Window x:Class="圆角透明Window.Pages.CircleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CircleWindow" Height="300" Width="300"
+        WindowStyle="None" AllowsTransparency="True" Background="{x:Null}">
+    <Grid>
+        <Border CornerRadius="25" Margin="10" BorderThickness="2"  BorderBrush="White" Opacity="0.8">
+            <Border.Effect>
+                <DropShadowEffect ShadowDepth="0" Color="#FF414141" BlurRadius="8"/>
+            </Border.Effect>
+            <Border Background="Black" Opacity="0.5" Margin="0" CornerRadius="25"/>
+        </Border>
+    </Grid>
+</Window>

@@ -16,11 +16,30 @@ namespace RubikCube.Classes
         Down
     }
 
-    enum Alis
+    public enum Alis
     {
         X,
         Y,
         Z
+    }
+    /// <summary>
+    /// 用来表示方向
+    /// 分为：正方向、负方向、零方向
+    /// </summary>
+    public enum AlisDirection
+    {
+        /// <summary>
+        /// 正方向
+        /// </summary>
+        Plus = 1,
+        /// <summary>
+        /// 负方向
+        /// </summary>
+        Minus = -1,
+        /// <summary>
+        /// 零方向
+        /// </summary>
+        Zero = 0
     }
 
     /// <summary>
@@ -221,8 +240,158 @@ namespace RubikCube.Classes
         position3 PositionNow;
         position3 Direction;
     }
-    class RubikCube
+
+    public class Orient{
+        public Alis ali;
+        public AlisDirection direc;
+        public Orient(Alis a,AlisDirection d)
+        {
+            ali = a;
+            direc = d;
+        }
+        public Orient()
+        {
+            ali = Alis.X;
+            direc = AlisDirection.Zero;
+        }
+        public Orient(Orient o)
+        {
+            this.ali = o.ali;
+            this.direc = o.direc;
+        }
+        public override string ToString()
+        {
+            string str = "";
+            switch(ali)
+            {
+                case Alis.X:
+                    str += "X : ";
+                    break;
+                case Alis.Y:
+                    str += "Y : ";
+                    break;
+                case Alis.Z:
+                    str += "Z : ";
+                    break;
+            }
+            switch(direc)
+            {
+                case AlisDirection.Minus:
+                    str += "-";
+                    break;
+                case AlisDirection.Plus:
+                    str += "+";
+                    break;
+                case AlisDirection.Zero:
+                    str += "0";
+                    break;
+            }
+            return str;
+        }
+    }
+
+    public class CubePosition
     {
-        
+        List<Orient> orientList;
+
+        public CubePosition()
+        {
+            orientList = new List<Orient>();
+            orientList.Add(new Orient());
+            orientList.Add(new Orient());
+            orientList.Add(new Orient());
+            this.X = new Orient(Alis.X,AlisDirection.Plus);
+            this.Y = new Orient(Alis.Y, AlisDirection.Plus);
+            this.Z = new Orient(Alis.Z, AlisDirection.Plus);
+        }
+
+        public CubePosition(Orient x, Orient y, Orient z)
+        {
+            orientList = new List<Orient>();
+            orientList.Add(new Orient());
+            orientList.Add(new Orient());
+            orientList.Add(new Orient());
+            this.X = new Orient(x);
+            this.Y = new Orient(y);
+            this.Z = new Orient(z);
+        }
+
+
+        public Orient X
+        {
+            get
+            {
+                return orientList[0];
+            }
+            set
+            {
+                orientList[0] = value;
+            }
+        }
+        public Orient Y
+        {
+            get
+            {
+                return orientList[1];
+            }
+            set
+            {
+                orientList[1] = value;
+            }
+        }
+        public Orient Z
+        {
+            get
+            {
+                return orientList[2];
+            }
+            set
+            {
+                orientList[2] = value;
+            }
+        }
+
+        public override string ToString()
+        {
+            string str = "方块位置：\n\r";
+            foreach(Orient o in orientList)
+            {
+                str += o.ToString();
+                str += "\n\r";
+            }
+            return str + "\n\r";
+        }
+    }
+
+    public class MyCube
+    {
+        public CubePosition origin;
+
+        public MyCube(CubePosition pos)
+        {
+            origin = pos;
+        }
+    }
+
+    public class MyRubikCube
+    {
+        public List<MyCube> listCube = new List<MyCube>(27);
+        public void InitRubikCube()
+        {
+            for(int i=0;i<27;++i)
+            {
+                int x = i / 9;
+                int y = (i - x * 9)/3;
+                int z = i - x * 9 - y * 3;
+
+                Orient dx = new Orient(Alis.X,(AlisDirection)(x - 1));
+                Orient dy = new Orient(Alis.Y, (AlisDirection)(y - 1));
+                Orient dz = new Orient(Alis.Z, (AlisDirection)(z - 1));
+
+                CubePosition pos = new CubePosition(dx, dy, dz);
+
+                listCube.Add(new MyCube(pos));
+            }
+        }
     }
 }
