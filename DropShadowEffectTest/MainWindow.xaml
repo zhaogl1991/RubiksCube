@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:XUI ="clr-namespace:DropShadowEffectTest"
         BorderThickness="24"  
-        AllowsTransparency="True"  
+        AllowsTransparency="True"    
         WindowStyle="None"         
         ResizeMode="NoResize"
         ShowInTaskbar="False"  

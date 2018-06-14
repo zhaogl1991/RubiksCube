@@ -1,0 +1,6 @@
+F:\赵国梁工作文件保存\练习\RubikCube\线程互斥学习\bin\Debug\线程互斥学习.exe.config
+F:\赵国梁工作文件保存\练习\RubikCube\线程互斥学习\bin\Debug\线程互斥学习.exe
+F:\赵国梁工作文件保存\练习\RubikCube\线程互斥学习\bin\Debug\线程互斥学习.pdb
+F:\赵国梁工作文件保存\练习\RubikCube\线程互斥学习\obj\Debug\线程互斥学习.csprojResolveAssemblyReference.cache
+F:\赵国梁工作文件保存\练习\RubikCube\线程互斥学习\obj\Debug\线程互斥学习.exe
+F:\赵国梁工作文件保存\练习\RubikCube\线程互斥学习\obj\Debug\线程互斥学习.pdb
